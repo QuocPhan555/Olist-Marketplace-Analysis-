@@ -108,7 +108,7 @@ A Brazilian marketplace grew fast in 2017, then stopped growing in 2018. Acting 
 olist-marketplace-sql/
 ├── README.md
 └── sql/
-    ├── 00_setup_raw.sql       # create tables, load CSVs as text
+    ├── 00_load_data.sql       # create tables, load CSVs as text
     ├── 01_clean_tables.sql    # types, deduplication, standardisation, keys
     └── 02_business_question_analysis.sql        # 7 business questions
 ```
