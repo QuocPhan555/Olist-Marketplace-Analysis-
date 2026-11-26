@@ -5,8 +5,9 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-SQL-336791?logo=postgresql&logoColor=white)
 ![Data](https://img.shields.io/badge/data-Olist%20(Kaggle)-20BEFF)
 ![Status](https://img.shields.io/badge/status-SQL%20complete%20-brightgreen)
+![Status](status-SQL%20%2B%20Power%20BI%20complete)
 
-A Brazilian marketplace grew fast in 2017, then stopped growing in 2018. Acting as an external analyst hired by the CEO, I cleaned 9 tables of real transaction data in PostgreSQL and answered 7 business questions: where growth comes from, why customers don't return, and what late delivery really costs. The findings are concrete with data support and four practical actions that leaders board can trust
+A Brazilian marketplace grew fast in 2017, then stopped growing in 2018. Acting as an external analyst hired by the CEO, I cleaned 9 tables of real transaction data in PostgreSQL, answered 7 business questions and built a Power BI dashboard for the board : where growth comes from, why customers don't return, and what late delivery really costs. The findings are concrete with data support and four practical actions that leaders board can trust
 
 ---
 
@@ -84,6 +85,14 @@ A Brazilian marketplace grew fast in 2017, then stopped growing in 2018. Acting 
 - Even after a perfect first order, 97% never return
 
 ---
+## Dashboard
+
+A one-page Power BI dashboard summarises the findings for the CEO: headline KPIs (sales, orders, average order value, repeat rate, YoY growth), the monthly trend, basket size, and the categories bought together.
+
+- **Built on SQL views:** Power BI reads only the `reporting` views (`sql/03_reporting_views.sql`), so the dashboard and the SQL analysis use the same definitions and the same numbers.
+- **File:** [`powerbi/olist_dashboard.pbix`](powerbi/olist_dashboard.pbix) · [PDF version](powerbi/olist_dashboard.pdf)
+  
+---
 
 ## Recommendations for the CEO
 
@@ -108,9 +117,12 @@ A Brazilian marketplace grew fast in 2017, then stopped growing in 2018. Acting 
 olist-marketplace-sql/
 ├── README.md
 └── sql/
-    ├── 00_load_data.sql       # create tables, load CSVs as text
-    ├── 01_clean_tables.sql    # types, deduplication, standardisation, keys
-    └── 02_business_question_analysis.sql        # 7 business questions
+│    ├── 00_load_data.sql       # create tables, load CSVs as text
+│    ├── 01_clean_tables.sql    # types, deduplication, standardisation, keys
+│    └── 02_business_question_analysis.sql        # 7 business questions
+├── powerbi/
+│   ├── olist_dashboard.pbix
+│   └── olist_dashboard.pdf
 ```
 ---
 ## Installation
