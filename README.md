@@ -5,7 +5,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-SQL-336791?logo=postgresql&logoColor=white)
 ![Data](https://img.shields.io/badge/data-Olist%20(Kaggle)-20BEFF)
 ![Status](https://img.shields.io/badge/status-SQL%20complete%20-brightgreen)
-![Status](status-SQL%20%2B%20Power%20BI%20complete)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
 
 A Brazilian marketplace grew fast in 2017, then stopped growing in 2018. Acting as an external analyst hired by the CEO, I cleaned 9 tables of real transaction data in PostgreSQL, answered 7 business questions and built a Power BI dashboard for the board : where growth comes from, why customers don't return, and what late delivery really costs. The findings are concrete with data support and four practical actions that leaders board can trust
 
@@ -15,11 +15,12 @@ A Brazilian marketplace grew fast in 2017, then stopped growing in 2018. Acting 
 
 1. [The business problem](#the-business-problem)
 2. [Key findings](#key-findings)
-3. [Recommendations for the CEO](#recommendations-for-the-ceo)
-4. [How I solved it](#how-i-solved-it)
-5. [Installation](#installation)
-6. [Skills demonstrated](#skills-demonstrated)
-7. [License](#license)
+3. [Dashboard](#dashboard)
+4. [Recommendations for the CEO](#recommendations-for-the-ceo)
+5. [How I solved it](#how-i-solved-it)
+6. [Installation](#installation)
+7. [Skills demonstrated](#skills-demonstrated)
+8. [License](#license)
 
 ---
 
