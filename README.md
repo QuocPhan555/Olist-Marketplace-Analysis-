@@ -91,7 +91,7 @@ A Brazilian marketplace grew fast in 2017, then stopped growing in 2018. Acting 
 A one-page Power BI dashboard summarises the findings for the CEO: headline KPIs (sales, orders, average order value, repeat rate, YoY growth), the monthly trend, basket size, and the categories bought together.
 
 - **Built on SQL views:** Power BI reads only the `reporting` views (`sql/03_reporting_views.sql`), so the dashboard and the SQL analysis use the same definitions and the same numbers.
-- **File:** [`powerbi/olist_dashboard.pbix`](olist_dashboard.pbix) · [PDF version]olist_dashboard.pdf)
+- **File:** [`olist_dashboard.pbix`](olist_dashboard.pbix) · [PDF version](olist_dashboard.pdf)
   
 ---
 
